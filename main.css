@@ -1,58 +1,104 @@
-
-
-
 body {
-
+  color: yellow;
+  background: darkred;
 }
-
-
-
 
 header {
+  text-align: center;
+}
+#pheader {
+  animation: moveright 4s ease-in-out 1s infinite alternate;
+}
+@keyframes moveright {
+  from {
+    margin-left: 25%;
+    color: darkgreen;
+  }
+  to {
+    margin-left: 75%;
+    color: yellow;
+  }
 }
 
-
-
+h2 {
+  text-align: center;
+  border-bottom: 10px solid yellow;
+  font-size: 200%;
+}
 
 main {
+  display: flex;
+  justify-content: space-between;
 }
-
-
 
 #section1 {
+  border: 2px solid black;
+  flex-basis: 33%;
 }
 #h3-1 {
+  border: 2px solid black;
+  color: black;
+  background-color: green;
+  text-align: right;
+  font-size: smaller;
 }
 #growing-trees {
+  width: 60%;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: green;
 }
 #p1 {
+  text-align: center;
 }
-
-
-
-
-
 
 #section2 {
+  border: 2px solid black;
+  flex-basis: 33%;
 }
 #h3-2 {
+  border: 2px solid black;
+  color: black;
+  background-color: orange;
+  text-align: right;
+  font-size: smaller;
 }
-#harvesting-wood {      
+#harvesting-wood {
+  width: 60%;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: orange;
 }
 #p2 {
+  text-align: center;
 }
 
 #section3 {
+  border: 2px solid black;
+  flex-basis: 33%;
 }
-#h3-3 {         
+#h3-3 {
+  border: 2px solid black;
+  color: black;
+  background-color: yellow;
+  text-align: right;
+  font-size: smaller;
 }
 #wood-ready-for-sale {
+  width: 60%;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: yellow;
 }
 #p3 {
+  text-align: center;
 }
 
-
-
-
 footer {
+  border-top: 10px solid yellow;
+  text-align: left;
+  margin-top: 10px;
 }
